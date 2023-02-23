@@ -1,0 +1,49 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[14].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[14].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[3].oneOf[14].use[5]!./src/app/login/login.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+body {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+.wrapper .video_div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  opacity: 0.5;
+}
+.wrapper .video_div .back_video {
+  rotate: 90deg;
+  width: 55vw;
+}
+.wrapper .inner_div {
+  position: absolute;
+  width: 25rem;
+  height: 30rem;
+  background-color: rgba(135, 134, 134, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  top: 10%;
+  left: 35%;
+  border-radius: 10px;
+}
+.wrapper .inner_div .inner {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper .inner_div .inner .Kurage_logo {
+  width: 4rem;
+}
+.wrapper .inner_div .inner .welcome_font {
+  font-family: var(--cb-Th);
+}
